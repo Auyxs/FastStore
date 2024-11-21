@@ -4,14 +4,14 @@ Node.js project built with the Fastify framework, implementing a simple authenti
 ### Usage
 ```js
 npm i                   // fastify bcryptjs jsonwebtoken axios
-node run start          // Node.js v20+ is required by Fastify V5
+npm run start          // Node.js v20+ is required by Fastify V5
 ```
 
 ### Testing
 Use the following command to test the implemented API endpoint with the Axios HTTP client library.
 ```js
-node run test1          // Test for successful use cases
-node run test2          // Test for error handling scenarios
+npm run test1          // Test for successful use cases
+npm run test2          // Test for error handling scenarios
 ```
 
 ### Project Structure
