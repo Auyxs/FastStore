@@ -12,7 +12,7 @@ export const registerUser = async (request, reply) => {
     return reply.status(400).send({ error: 'User already exists' });
   }
 
-  const hashedPassword = hashPassword(password);
+  const hashedPassword = await hashPassword(password);
   
   const newUser = { email, password: hashedPassword, role };
   users.push(newUser);
